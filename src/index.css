@@ -1,13 +1,23 @@
+/**
+ * Use relative units for text: https://web.dev/accessible-responsive-design/#use-relative-units-for-text
+ * By default browsers set font-size to 16px, which makes it harder for us to figure out relative sizing
+ * using rem/em values. To make this easier we reset the base value to 10px. Some users prefer to change
+ * the default font-size and so we don't want to hard code to 10px. As such we can use a relative reset
+ * to get our base font-size.
+ *
+ * 16px * 0.65 = 10px
+ */
+html {
+  font-size: 62.5%;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
