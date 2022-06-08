@@ -1,5 +1,6 @@
 import React from "react";
 
+import CompetitionForm from "./Form";
 import logo from "../../TXI-Icon-ColorOnLight-RGB.png";
 
 export default function Wrapper() {
@@ -45,6 +46,8 @@ export default function Wrapper() {
           acquaintance during your stay at Lambton?"
         </p>
       </article>
+
+      <CompetitionForm />
     </section>
   );
 }
