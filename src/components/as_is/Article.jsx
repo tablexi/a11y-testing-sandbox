@@ -8,7 +8,7 @@ export default function Article() {
       <h1>I wrap the page!</h1>
       <h3>But I've taken no heed of Accessibility Guidelines</h3>
 
-      <img src={logo} />
+      <img alt="something" src={logo} />
 
       <p>
         After walking some time in this way, the two ladies in front, the two
