@@ -3,9 +3,9 @@ import React from "react";
 import CompetitionForm from "./Form";
 import logo from "../../TXI-Icon-ColorOnLight-RGB.png";
 
-export default function Wrapper() {
+export default function Content() {
   return (
-    <div className="wrapper">
+    <div className="content">
       <div className="article">
         <h1>I wrap the page!</h1>
         <h3>But I've taken no heed of Accessibility Guidelines</h3>

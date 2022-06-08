@@ -3,9 +3,9 @@ import React from "react";
 import CompetitionForm from "./Form";
 import logo from "../../TXI-Icon-ColorOnLight-RGB.png";
 
-export default function Wrapper() {
+export default function Content() {
   return (
-    <section className="wrapper">
+    <section className="content">
       <article>
         <h2>I wrap the page!</h2>
         <h3>And I am more accessible</h3>

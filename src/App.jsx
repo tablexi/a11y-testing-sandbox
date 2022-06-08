@@ -1,8 +1,8 @@
 import "./App.css";
 import logo from "./logo.svg";
 
-import A11yWrapper from "./components/a11y/Wrapper";
-import AsIsWrapper from "./components/as_is/Wrapper";
+import A11yContent from "./components/a11y/Content";
+import AsIsContent from "./components/as_is/Content";
 import GeneralNotes from "./components/GeneralNotes";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
       <GeneralNotes />
 
       <section className="comparison">
-        <AsIsWrapper />
-        <A11yWrapper />
+        <AsIsContent />
+        <A11yContent />
       </section>
 
       <div className="logoContainer">
