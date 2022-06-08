@@ -27,3 +27,16 @@ npm start
 ```shell
 npm test
 ```
+
+## A11y testing tools
+
+We will be using the following tools during the working session:
+
+- Axe DevTools - extension for [Chrome](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) and [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/axe-devtools/)
+- Google Lighthouse - built into Chrome DevTools, available for [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/google-lighthouse/)
+- Tota11y - extension for [Chrome](https://chrome.google.com/webstore/detail/tota11y-plugin-from-khan/oedofneiplgibimfkccchnimiadcmhpe) and [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/tota11y-accessibility-toolkit/)
+- Wave - extension for [Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) and [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/wave-accessibility-tool/)
+
+## Additional resources
+
+We won't cover these [additional resources](https://docs.google.com/presentation/d/1BDgNvwI-PfwptjykfwcgB_OvABbs4hoC4P4B4kTxRaU/edit) during the working session, but they inspired us and so we wanted to pass them on!
