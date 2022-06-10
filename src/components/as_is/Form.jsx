@@ -3,8 +3,9 @@ import { Formik, Field, Form } from "formik";
 
 export default function CompetitionForm() {
   return (
-    <div className="rude-form">
+    <div className="form">
       <h3>Competition</h3>
+
       <Formik
         initialValues={{ email: "", answer: "" }}
         onSubmit={async (values) => {
@@ -36,14 +37,23 @@ export default function CompetitionForm() {
 
             <div className="field">
               <div id="my-radio-group">Question</div>
+
+              <p>
+                It is a truth universally acknowledged, that a single man in
+                possession of a good fortune, must be in want of ...
+              </p>
+
               <div>
                 <label>a banana</label>
                 <Field type="radio" name="answer" value="a banana" />
+
                 <label>a wife</label>
                 <Field type="radio" name="answer" value="a wife" />
+
                 <label>an Aria Role</label>
                 <Field type="radio" name="answer" value="an Aria Role" />
               </div>
+
               <button type="submit" disabled={isSubmitting}>
                 Submit
               </button>
