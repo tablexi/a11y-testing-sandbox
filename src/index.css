@@ -7,6 +7,8 @@
   --txi-purple: #83d;
   --txi-teal: #0ab;
   --txi-white: #fff;
+
+  --link-color: blue;
 }
 
 /* Baseline */
@@ -63,4 +65,8 @@ p {
   margin-bottom: 1.8rem;
   font-size: 1.6rem;
   line-height: 130%;
+}
+
+a {
+  color: var(--link-color);
 }

@@ -11,3 +11,7 @@
 .as-is label {
   margin-left: 0.6rem;
 }
+
+.as-is a {
+  color: var(--txi-teal);
+}
