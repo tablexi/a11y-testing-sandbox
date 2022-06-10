@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./logo.svg";
+import logo from "./TXI-Icon-ColorOnLight-RGB.png";
 
 import A11yContent from "./components/a11y/Content";
 import AsIsContent from "./components/as_is/Content";

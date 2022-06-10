@@ -38,11 +38,11 @@ header {
 /* Logo */
 
 .logoContainer {
-  padding-top: 10vmin;
+  display: block;
+  text-align: center;
 }
 
 .logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
