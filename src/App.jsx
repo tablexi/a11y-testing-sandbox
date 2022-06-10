@@ -10,8 +10,8 @@ function App() {
       </header>
 
       <section className="comparison">
-        <AsIsContent />
         <A11yContent />
+        <AsIsContent />
       </section>
     </section>
   );
