@@ -37,6 +37,8 @@ We will be using the following tools during the working session:
 - Tota11y - extension for [Chrome](https://chrome.google.com/webstore/detail/tota11y-plugin-from-khan/oedofneiplgibimfkccchnimiadcmhpe) and [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/tota11y-accessibility-toolkit/)
 - Wave - extension for [Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) and [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/wave-accessibility-tool/)
 
+We've also set up CI for Axe, Lighthouse and Pa11y following [this guide](https://www.adrianbolonio.com/en/accessibility-github-actions/). The configuration can be found in [./.github/workflow/a11y.yml](./.github/workflows/a11y.yml).
+
 ## Additional resources
 
 We won't cover these [additional resources](https://docs.google.com/presentation/d/1BDgNvwI-PfwptjykfwcgB_OvABbs4hoC4P4B4kTxRaU/edit) during the working session, but they inspired us and so we wanted to pass them on!
