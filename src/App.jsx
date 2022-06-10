@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 
 import A11yContent from "./components/a11y/Content";
 import AsIsContent from "./components/as_is/Content";
-import GeneralNotes from "./components/GeneralNotes";
 
 function App() {
   return (
@@ -11,8 +10,6 @@ function App() {
       <header>
         <h1>Accessibility Testing Sandbox</h1>
       </header>
-
-      <GeneralNotes />
 
       <section className="comparison">
         <AsIsContent />
