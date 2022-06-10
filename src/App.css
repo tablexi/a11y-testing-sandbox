@@ -20,6 +20,20 @@ header {
   padding: 2rem 5rem 5rem;
 }
 
+.competition {
+  margin-top: 5rem;
+}
+
+form .field,
+form .control {
+  margin: 2rem 0;
+}
+
+form .radio-button {
+  margin-top: 0.6rem;
+  margin-left: 1rem;
+}
+
 /* Logo */
 
 .logoContainer {

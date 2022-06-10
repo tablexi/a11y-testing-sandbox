@@ -3,3 +3,17 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+
+.a11y h4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.a11y .radio-button {
+  display: block;
+}
+
+.a11y input#email-field {
+  margin-left: 1rem;
+}
