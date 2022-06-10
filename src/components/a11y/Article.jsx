@@ -4,9 +4,9 @@ import logo from "../../TXI-Icon-ColorOnLight-RGB.png";
 
 export default function Article() {
   return (
-    <article>
-      <h2>I wrap the page!</h2>
-      <h3>And I am more accessible</h3>
+    <article aria-labelledby="a11y-article-header">
+      <h1 id="a11y-article-header">I wrap the page!</h1>
+      <h2>And I am more accessible</h2>
 
       <div className="logoContainer">
         <img src={logo} className="logo" alt="The TXI company logo" />

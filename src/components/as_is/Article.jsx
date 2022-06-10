@@ -5,8 +5,8 @@ import logo from "../../TXI-Icon-ColorOnLight-RGB.png";
 export default function Article() {
   return (
     <div className="article">
-      <h2>I wrap the page!</h2>
-      <h4>But I'm less accessible</h4>
+      <h1>I wrap the page!</h1>
+      <h3>But I'm less accessible</h3>
 
       <div className="logoContainer">
         <img src={logo} className="logo" alt="logo" />

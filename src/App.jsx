@@ -5,7 +5,7 @@ import AsIsContent from "./components/as_is/Content";
 function App() {
   return (
     <section className="main">
-      <header>
+      <header role="banner">
         <h1>Accessibility Testing Sandbox</h1>
       </header>
 

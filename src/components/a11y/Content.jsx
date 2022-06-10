@@ -7,9 +7,9 @@ import CompetitionForm from "./Form";
 
 export default function Content() {
   return (
-    <section className="content a11y">
+    <main className="content a11y">
       <Article />
       <CompetitionForm />
-    </section>
+    </main>
   );
 }
