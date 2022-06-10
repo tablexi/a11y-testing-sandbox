@@ -5,10 +5,12 @@ import logo from "../../TXI-Icon-ColorOnLight-RGB.png";
 export default function Article() {
   return (
     <div className="article">
-      <h1>I wrap the page!</h1>
-      <h3>But I've taken no heed of Accessibility Guidelines</h3>
+      <h2>I wrap the page!</h2>
+      <h4>But I'm less accessible</h4>
 
-      <img alt="something" src={logo} />
+      <div className="logoContainer">
+        <img src={logo} className="logo" alt="logo" />
+      </div>
 
       <p>
         After walking some time in this way, the two ladies in front, the two

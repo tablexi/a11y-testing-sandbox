@@ -1,0 +1,5 @@
+@media (prefers-reduced-motion: no-preference) {
+  .a11y img.logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

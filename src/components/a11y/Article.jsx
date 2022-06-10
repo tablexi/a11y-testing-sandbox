@@ -8,7 +8,9 @@ export default function Article() {
       <h2>I wrap the page!</h2>
       <h3>And I am more accessible</h3>
 
-      <img src={logo} alt="The TXI company logo" />
+      <div className="logoContainer">
+        <img src={logo} className="logo" alt="The TXI company logo" />
+      </div>
 
       <p>
         After walking some time in this way, the two ladies in front, the two
