@@ -1,3 +1,7 @@
+/*
+  For more info on prefers-reduced-motion see:
+  https://css-tricks.com/revisiting-prefers-reduced-motion/
+*/
 @media (prefers-reduced-motion: no-preference) {
   .a11y img.logo {
     animation: logo-spin infinite 20s linear;

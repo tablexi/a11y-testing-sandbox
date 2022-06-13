@@ -49,6 +49,10 @@ If we want to use the CLI tool, there is more information in the [Lighthouse rep
 
 We've also set up CI for Axe, Lighthouse and Pa11y following [this guide](https://www.adrianbolonio.com/en/accessibility-github-actions/). The configuration can be found in [./.github/workflow/a11y.yml](./.github/workflows/a11y.yml).
 
+## A note on motion settings
+
+One of the things that we included was the use of the CSS media query [prefers-reduced-motion](./src/components/a11y/index.css). This will prevent animations if the user has selected to reduce motion in their OS. If we would like to see this in action we can follow the [instructions here](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#user_preferences) for our OS.
+
 ## Additional resources
 
 We won't cover these [additional resources](https://docs.google.com/presentation/d/1BDgNvwI-PfwptjykfwcgB_OvABbs4hoC4P4B4kTxRaU/edit) during the working session, but they inspired us and so we wanted to pass them on!
