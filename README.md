@@ -1,6 +1,6 @@
 # Accessibility Testing Sandbox
 
-A simple React App, built with [Create React App](./docs/CRA_README.md), that helps us to test out accessibility features.
+A simple React App, built with [Create React App](./docs/CRA_README.md), that helps us to test out accessibility features. We decided to use a React app rather than simple HTML pages as we more often use React than straight HTML on our projects at the moment. Feel free to add different options as needed though.
 
 ## Up and running
 
@@ -30,12 +30,22 @@ npm test
 
 ## A11y testing tools
 
-We will be using the following tools during the working session:
+### In the browser
+
+We will be using the following tools during the working session. We've only tried these out in Firefox and Chrome-like browsers (Chrome and Brave specifically). If you would like to try using Safari or some other browser, please update this section with anything that you find.
 
 - Axe DevTools - extension for [Chrome](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) and [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/axe-devtools/)
-- Google Lighthouse - built into Chrome DevTools, available for [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/google-lighthouse/)
+- Google Lighthouse - built into Chrome DevTools, see [note below](#using-lighthouse-with-firefox) for using with Firefox
 - Tota11y - extension for [Chrome](https://chrome.google.com/webstore/detail/tota11y-plugin-from-khan/oedofneiplgibimfkccchnimiadcmhpe) and [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/tota11y-accessibility-toolkit/)
 - Wave - extension for [Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) and [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/wave-accessibility-tool/)
+
+### Using Lighthouse with Firefox
+
+There is [an extension](https://addons.mozilla.org/en-GB/firefox/addon/google-lighthouse/) available for Firefox. However, this does not work when testing localhost. If you want to use Lighthouse to test localhost we need to use the [Lighthouse CLI tool](). Unfortunately this requires us to have Chrome installed, so it's probably easiest just to use directly in Chrome (or a Chrome-like browser).
+
+If we want to use the CLI tool, there is more information in the [Lighthouse repo](https://github.com/GoogleChrome/lighthouse#using-the-node-cli).
+
+### In CI
 
 We've also set up CI for Axe, Lighthouse and Pa11y following [this guide](https://www.adrianbolonio.com/en/accessibility-github-actions/). The configuration can be found in [./.github/workflow/a11y.yml](./.github/workflows/a11y.yml).
 
